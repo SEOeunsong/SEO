@@ -1,0 +1,1 @@
+print 'seo in mofac'
