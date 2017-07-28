@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>539</width>
-    <height>602</height>
+    <width>311</width>
+    <height>287</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,7 +18,7 @@
     <rect>
      <x>10</x>
      <y>20</y>
-     <width>141</width>
+     <width>131</width>
      <height>231</height>
     </rect>
    </property>
@@ -30,7 +30,7 @@
      <rect>
       <x>10</x>
       <y>20</y>
-      <width>121</width>
+      <width>111</width>
       <height>192</height>
      </rect>
     </property>
@@ -50,7 +50,7 @@
     <rect>
      <x>170</x>
      <y>20</y>
-     <width>141</width>
+     <width>131</width>
      <height>231</height>
     </rect>
    </property>
@@ -62,7 +62,7 @@
      <rect>
       <x>10</x>
       <y>20</y>
-      <width>121</width>
+      <width>111</width>
       <height>192</height>
      </rect>
     </property>
@@ -76,24 +76,78 @@
      <enum>QListView::TopToBottom</enum>
     </property>
    </widget>
+   <widget class="QPushButton" name="up_btn">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>200</y>
+      <width>31</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>:/icons/up_arrow.png</normaloff>:/icons/up_arrow.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="down_btn">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>200</y>
+      <width>31</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>:/icons/down_arrow.png</normaloff>:/icons/down_arrow.png</iconset>
+    </property>
+   </widget>
+   <zorder>list_setting</zorder>
+   <zorder>up_btn</zorder>
+   <zorder>up_btn</zorder>
+   <zorder>down_btn</zorder>
   </widget>
   <widget class="QPushButton" name="exec_button">
    <property name="geometry">
     <rect>
-     <x>320</x>
-     <y>190</y>
+     <x>80</x>
+     <y>260</y>
      <width>71</width>
      <height>23</height>
     </rect>
    </property>
    <property name="text">
-    <string>execute</string>
+    <string>create</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="del_button">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>260</y>
+     <width>71</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>delete</string>
    </property>
   </widget>
   <zorder>read_gb</zorder>
   <zorder>setting_nd</zorder>
   <zorder>exec_button</zorder>
   <zorder>exec_button</zorder>
+  <zorder>del_button</zorder>
+  <zorder>up_btn</zorder>
+  <zorder>down_btn</zorder>
  </widget>
  <resources/>
  <connections/>
