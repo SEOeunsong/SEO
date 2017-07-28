@@ -48,7 +48,7 @@
   <widget class="QGroupBox" name="setting_nd">
    <property name="geometry">
     <rect>
-     <x>170</x>
+     <x>160</x>
      <y>20</y>
      <width>131</width>
      <height>231</height>
@@ -110,15 +110,11 @@
       <normaloff>:/icons/down_arrow.png</normaloff>:/icons/down_arrow.png</iconset>
     </property>
    </widget>
-   <zorder>list_setting</zorder>
-   <zorder>up_btn</zorder>
-   <zorder>up_btn</zorder>
-   <zorder>down_btn</zorder>
   </widget>
   <widget class="QPushButton" name="exec_button">
    <property name="geometry">
     <rect>
-     <x>80</x>
+     <x>70</x>
      <y>260</y>
      <width>71</width>
      <height>23</height>
@@ -141,13 +137,6 @@
     <string>delete</string>
    </property>
   </widget>
-  <zorder>read_gb</zorder>
-  <zorder>setting_nd</zorder>
-  <zorder>exec_button</zorder>
-  <zorder>exec_button</zorder>
-  <zorder>del_button</zorder>
-  <zorder>up_btn</zorder>
-  <zorder>down_btn</zorder>
  </widget>
  <resources/>
  <connections/>

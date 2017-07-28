@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'button20170717.ui'
 #
-# Created: Fri Jul 28 16:14:46 2017
+# Created: Fri Jul 28 16:23:09 2017
 #      by: pyside-uic 0.2.15 running on PySide 1.2.4
 #
 # WARNING! All changes made in this file will be lost!
@@ -23,7 +23,7 @@ class Ui_Dialog(object):
         self.readnode_listView.setFlow(QtGui.QListView.TopToBottom)
         self.readnode_listView.setObjectName("readnode_listView")
         self.setting_nd = QtGui.QGroupBox(Dialog)
-        self.setting_nd.setGeometry(QtCore.QRect(170, 20, 131, 231))
+        self.setting_nd.setGeometry(QtCore.QRect(160, 20, 131, 231))
         self.setting_nd.setObjectName("setting_nd")
         self.list_setting = QtGui.QListView(self.setting_nd)
         self.list_setting.setGeometry(QtCore.QRect(10, 20, 111, 192))
@@ -46,7 +46,7 @@ class Ui_Dialog(object):
         self.down_btn.setIcon(icon1)
         self.down_btn.setObjectName("down_btn")
         self.exec_button = QtGui.QPushButton(Dialog)
-        self.exec_button.setGeometry(QtCore.QRect(80, 260, 71, 23))
+        self.exec_button.setGeometry(QtCore.QRect(70, 260, 71, 23))
         self.exec_button.setObjectName("exec_button")
         self.del_button = QtGui.QPushButton(Dialog)
         self.del_button.setGeometry(QtCore.QRect(160, 260, 71, 23))
