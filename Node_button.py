@@ -76,13 +76,14 @@ class Seo(QDialog, button_gui.Ui_Dialog):
             for num, data in enumerate(createdNode, 0):
                 if num == 0:
                     createdNode[num].setInput(0, readNode)
-                else:
+                else: 
                     createdNode[num].setInput(0, createdNode[num-1])
    
 
     def deleteSettingNode(self):
         for deleteNode in self.extendList:
             nuke.delete(deleteNode)
+
 
                     
 def main():

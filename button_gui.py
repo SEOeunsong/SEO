@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'button20170717.ui'
 #
-# Created: Fri Jul 28 16:23:09 2017
+# Created: Fri Jul 28 17:11:43 2017
 #      by: pyside-uic 0.2.15 running on PySide 1.2.4
 #
 # WARNING! All changes made in this file will be lost!
@@ -12,7 +12,7 @@ from PySide import QtCore, QtGui
 class Ui_Dialog(object):
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
-        Dialog.resize(311, 287)
+        Dialog.resize(341, 287)
         self.read_gb = QtGui.QGroupBox(Dialog)
         self.read_gb.setGeometry(QtCore.QRect(10, 20, 131, 231))
         self.read_gb.setObjectName("read_gb")
@@ -31,26 +31,26 @@ class Ui_Dialog(object):
         self.list_setting.setSelectionMode(QtGui.QAbstractItemView.MultiSelection)
         self.list_setting.setFlow(QtGui.QListView.TopToBottom)
         self.list_setting.setObjectName("list_setting")
-        self.up_btn = QtGui.QPushButton(self.setting_nd)
-        self.up_btn.setGeometry(QtCore.QRect(30, 200, 31, 23))
-        self.up_btn.setText("")
-        icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(":/icons/up_arrow.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
-        self.up_btn.setIcon(icon)
-        self.up_btn.setObjectName("up_btn")
-        self.down_btn = QtGui.QPushButton(self.setting_nd)
-        self.down_btn.setGeometry(QtCore.QRect(70, 200, 31, 23))
-        self.down_btn.setText("")
-        icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap(":/icons/down_arrow.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
-        self.down_btn.setIcon(icon1)
-        self.down_btn.setObjectName("down_btn")
         self.exec_button = QtGui.QPushButton(Dialog)
         self.exec_button.setGeometry(QtCore.QRect(70, 260, 71, 23))
         self.exec_button.setObjectName("exec_button")
         self.del_button = QtGui.QPushButton(Dialog)
         self.del_button.setGeometry(QtCore.QRect(160, 260, 71, 23))
         self.del_button.setObjectName("del_button")
+        self.up_btn = QtGui.QPushButton(Dialog)
+        self.up_btn.setGeometry(QtCore.QRect(300, 110, 31, 23))
+        self.up_btn.setText("")
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap(":/icons/up_arrow.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.up_btn.setIcon(icon)
+        self.up_btn.setObjectName("up_btn")
+        self.down_btn = QtGui.QPushButton(Dialog)
+        self.down_btn.setGeometry(QtCore.QRect(300, 140, 31, 23))
+        self.down_btn.setText("")
+        icon1 = QtGui.QIcon()
+        icon1.addPixmap(QtGui.QPixmap(":/icons/down_arrow.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.down_btn.setIcon(icon1)
+        self.down_btn.setObjectName("down_btn")
 
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
